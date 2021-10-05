@@ -11,58 +11,25 @@ var TestConfig = {
   "LoopByDefault": true,
   "EnableABLoop": true,
   "EnableOnlineSubmission": false,
-  "BeaqleServiceURL": "/web_service/beaqleJS_Service.php",
+  "BeaqleServiceURL": "",
+  //"BeaqleServiceURL": "/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
   "RandomizeTestOrder": false,
   "MaxTestsPerRun": 3,
   "RequireMaxRating": false,
   "AudioRoot": "",
   "Testsets": [
-    //    
+    //
     {
-      "Name": "Schubert 1",
-      "TestID": "id1_1",
+      "Name": "Christian_test_1",
+      "TestID": "christian_1_a=a",
       "Files": {
-            "Reference": "audio/schubert_ref.wav",
-            "1": "audio/schubert_1.wav",
-            "2": "audio/schubert_2.wav",
-            "3": "audio/schubert_3.wav",
-            "4": "audio/schubert_anch.wav",
-        }
-    },
-    {
-      "Name": "Schubert 2",
-      "TestID": "id1_2",
-      "Files": {
-            "Reference": "audio/schubert_ref.wav",
-            "1": "audio/schubert_1.wav",
-            "2": "audio/schubert_2.wav",
-            "3": "audio/schubert_3.wav",
-            "4": "audio/schubert_anch.wav",
-        }
-    },
-    {
-      "Name": "Schubert 3",
-      "TestID": "id1_3",
-      "Files": {
-            "Reference": "audio/schubert_ref.wav",
-            "1": "audio/schubert_1.wav",
-            "2": "audio/schubert_2.wav",
-            "3": "audio/schubert_3.wav",
-            "4": "audio/schubert_anch.wav",
-        }
-    },
-    //    
-    {
-       "Name": "Castanets",
-       "TestID": "id2_1",
-       "Files": {
-            "Reference": "audio/castanets_ref.wav",
-            "1": "audio/castanets_1.wav",
-            "2": "audio/castanets_2.wav",
-            "3": "audio/castanets_3.wav",
-            "4": "audio/castanets_anch.wav",
-        }
+        "Reference": "video/merkel00.mp4",
+        "1": "video/merkel01.mp4",
+        "2": "video/merkel02.mp4",
+        "3": "video/merkel03.mp4",
+        "4": "video/merkel04.mp4",
+      }
     },
   ]
 }

@@ -6,8 +6,8 @@ body {
     font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
 }
 
-.ui-widget { 
-    font-size: 1em; 
+.ui-widget {
+    font-size: 1em;
 }
 
 #Wrapper {
@@ -49,19 +49,19 @@ body {
 #TestIntroduction {
     text-align:center;
     min-height:300px;
-    display: none;	
+    display: none;
 }
 
 #TestEnd{
     text-align:center;
     min-height:300px;
-    display: none;	
+    display: none;
 }
 
 #TestHeading {
     text-align:center;
     font-size:1.5em;
-    margin-bottom:20px;	
+    margin-bottom:20px;
     padding:5px;
     border-radius: 3px;
     background-color:#dddddd;
@@ -81,7 +81,7 @@ body {
 }
 
 #TestTable  td {
-    background-color: transparent;	
+    background-color: transparent;
 }
 
 #ScaleImage {
@@ -115,7 +115,7 @@ body {
 #ResultsBox table {
     text-align:left;
     margin-left:auto;
-    margin-right:auto;    
+    margin-right:auto;
 }
 
 #ResultsBox table td {
@@ -142,11 +142,11 @@ body {
 }
 
 #PlayerControls {
-    display: none;	
+    display: none;
 }
 
 #PlayerControls > div{
-    float:left;	
+    float:left;
     margin-right:40px;
 }
 
@@ -174,7 +174,7 @@ body {
     padding:0.4em;
     border: 1px solid #bbbbbb;
     font-family: monospace;
-    border-radius: 0.2em;	
+    border-radius: 0.2em;
 }
 
 #TimeLine {
@@ -227,10 +227,6 @@ body {
     color:red;
 }
 
-#AudioPool {
-    display:none;
-}
-
 a {
     color: #354556;
     text-decoration: none;
@@ -238,4 +234,56 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#AudioPool video{
+    width: 760px;
+}
+
+#AudioPool #audioA, #AudioPool #audioB, #AudioPool #audioX{
+    display: none;
+}
+
+#playXBtn{
+    display: none;
+}
+
+.single_comment{
+    position: absolute;
+    width: 640px;
+    margin-top: 30px;
+}
+
+#TableContainer{
+    height: 370px;
+}
+
+.comment{
+    float: left;
+    position: relative;
+    width: 180px;
+}
+
+#TestTable tr{
+    float: left;
+    position: relative;
+}
+
+#selectA{
+    margin-left: 10px;
+}
+
+#selectB{
+    margin-left: 16px;
+}
+
+.select{
+    margin: 0 0 0 67px;
+
+    float: left;
+    position: relative;
+}
+
+#Volume{
+    display: none;
 }
